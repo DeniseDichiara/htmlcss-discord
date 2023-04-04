@@ -41,7 +41,7 @@ header{
     justify-content: center;
     border-left: 0.2rem dotted black;
     border-right: 0.2rem dotted black;
-
+    width: 60%;
 }
 
 /*  SISTEMARE LO SPAZIO NEL NAV BAR DOVE CI SONO I VARI LINKS  */
@@ -226,4 +226,10 @@ li{
 
 .logo-bottone2{
     margin: 0.2rem;
+}
+
+/* Nuove classi */
+
+.text-block{
+
 }
