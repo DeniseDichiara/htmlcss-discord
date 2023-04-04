@@ -93,7 +93,7 @@ li{
 }
 
 .red{
-    background-color: skyblue;
+    background-image: url("item1.svg");
     flex-direction: row;
     border-right: 0.2rem dotted black;
     width: 70%;
@@ -160,14 +160,14 @@ li{
 .section-multiple{
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: #23272a;;
     justify-content: center;
 }
 
 .container-purple{
     margin: 1% 20%;
     display: flex;
-    background-color: black
+    background-color: #23272a;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
@@ -202,7 +202,7 @@ li{
 
 .flex2{
     display: flex;
-    background-color: black;
+    background-color: #23272a;
 }
 
 .container-flex2{
@@ -226,10 +226,4 @@ li{
 
 .logo-bottone2{
     margin: 0.2rem;
-}
-
-/* Nuove classi */
-
-.text-block{
-
 }
