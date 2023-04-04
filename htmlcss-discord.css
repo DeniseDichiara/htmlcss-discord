@@ -92,7 +92,7 @@ li{
    height: 30rem;
 }
 
-.red{
+.red one{
     background-image: url("item1.svg");
     flex-direction: row;
     border-right: 0.2rem dotted black;
@@ -100,7 +100,17 @@ li{
     height: 100%;
 }
 
+.red one{
+    background-image: url("item2.svg");
+    flex-direction: row;
+    border-right: 0.2rem dotted black;
+    width: 70%;
+    height: 100%;
+}
+
 .green{
+    display: flex;
+    justify-content: flex-start;
     background-color: pink;
     flex-direction: row;
     width: 30%;
@@ -226,4 +236,14 @@ li{
 
 .logo-bottone2{
     margin: 0.2rem;
+}
+
+.text-block{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-title{
+    display: flex;
+    flex-wrap: wrap;
 }
