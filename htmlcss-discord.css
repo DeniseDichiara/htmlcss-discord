@@ -16,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: #3161e0;
 }
 
 .container-flex{
@@ -55,8 +55,7 @@ li{
 .section-blue{
     display: flex;
     flex-direction: row;
-    background-color: navy;
-    justify-content: center;
+    background-image: url("jumbo.png"); 
 }
 
 .container-pink{
