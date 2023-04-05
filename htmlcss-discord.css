@@ -86,15 +86,13 @@ li{
     background-color: white;
     flex-direction: row;
     align-items: center;
-    border: 0.2rem dotted black;
     max-width: 1200px;
-   height: 30rem;
+    height: 30rem;
 }
 
 .red one{
     background-image: url("item1.svg");
     flex-direction: row;
-    border-right: 0.2rem dotted black;
     width: 70%;
     height: 100%;
 }
@@ -118,14 +116,15 @@ li{
 .green-one{
     display: flex;
     justify-content: flex-end;
-    background-color: pink;
+    background-color: white;
     flex-direction: column;
     width: 30%;
-    margin-bottom: 18%;
+    margin-bottom: 8%;
 }
 
 h2{
     margin-bottom: 5%;
+    font-size: 2rem;
 }
 
 .section-grey{
