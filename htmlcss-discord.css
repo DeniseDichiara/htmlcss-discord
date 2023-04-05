@@ -108,13 +108,20 @@ li{
     height: 100%;
 }
 
+.red one{
+    background-image: url("item3.svg");
+    flex-direction: row;
+    border-right: 0.2rem dotted black;
+    width: 70%;
+    height: 100%;
+}
+
 .green{
     display: flex;
     justify-content: flex-start;
     background-color: pink;
     flex-direction: row;
     width: 30%;
-    height: 100%;
 }
 
 .section-grey{
@@ -158,10 +165,8 @@ li{
 .container-oliva{
     margin: 1% 20%;
     display: flex;
-    background-color: darkgreen;
+    background-image: url("item4-big.svg");
     justify-content: space-between;
-    flex-direction: row-reverse;
-    align-items: center;
     border: 0.2rem dotted black;
     width: 60%;
    height: 50rem;
