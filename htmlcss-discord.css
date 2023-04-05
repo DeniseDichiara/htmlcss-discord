@@ -84,11 +84,10 @@ li{
     margin: 1% 20%;
     display: flex;
     background-color: white;
-    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     border: 0.2rem dotted black;
-    width: 60%;
+    max-width: 1200px;
    height: 30rem;
 }
 
@@ -116,12 +115,17 @@ li{
     height: 100%;
 }
 
-.green{
+.green-one{
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     background-color: pink;
-    flex-direction: row;
+    flex-direction: column;
     width: 30%;
+    margin-bottom: 18%;
+}
+
+h2{
+    margin-bottom: 5%;
 }
 
 .section-grey{
@@ -240,11 +244,6 @@ li{
 
 .logo-bottone2{
     margin: 0.2rem;
-}
-
-.text-block{
-    display: flex;
-    justify-content: flex-start;
 }
 
 .section-title{
